@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=deputat.design">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Calculator -->
+  <div class="calculator">
+    <!-- Display -->
+    <div class="calculator-display">
+      <h1>0</h1>
+    </div>
+    <!-- Buttons -->
+    <div class="calculator-buttons">
+      <!--(1) Первая линия на 4 кнопки-->
+      <button class="operator" value="+">+</button>
+      <button class="operator" value="-">-</button>
+      <button class="operator" value="*">×</button>
+      <button class="operator" value="/">÷</button>
+      <!--(2) Вторая линия на 3 кнопки -->
+      <button value="7">7</button>
+      <button value="8">8</button>
+      <button value="9">9</button>
+      <!--(3) Третья линия на 3 кнопки -->
+      <button value="4">4</button>
+      <button value="5">5</button>
+      <button value="6">6</button>
+      <!--(4) Четвертая линия на 3 кнопки -->
+      <button value="1">1</button>
+      <button value="2">2</button>
+      <button value="3">3</button>
+      <!--(5) Пятая линия на 3 кнопки -->
+      <button class="decimal" value=".">.</button>
+      <button value="0">0</button>
+      <button class="clear" id="clear-btn">C</button>
+      <!-- Занимает крайнюю колонку от (2) по (5) -->
+      <button class="equal-sign operator" value="=">=</button>
+
+    </div>
+  </div>
+  <!-- script -->
+  <script src="main.js"></script>
+</body>
+</html>
